@@ -38,7 +38,7 @@ flask-todo-hobies/
 ├── requirements.txt # Python dependencies
 └── .gitignore
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 - Python 3.x
 - Flask
 - Flask-Session
