@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    TODO
+{% endblock %}
+
+{% block main %}
+
+<form action="/todo" method="post">
+    <div class="mb-3">
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="todo" placeholder="What is your GOAL" type="text">
+    </div>
+    <button class="btn btn-primary" type="submit">Add TODO</button>
+</form>
+<table>
+    <thead>
+        <tr>
+            <th>TODOS</th>
+        </tr>
+    </thead>
+
+    {% for todo in todos %}
+    <tr>
+        <td>{{todo.todo}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

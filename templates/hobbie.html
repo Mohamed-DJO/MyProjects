@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HOBBIE
+{% endblock %}
+
+{% block main %}
+
+<form action="/hobbies" method="post">
+    <div class="mb-3">
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="hobbie" placeholder="What is your HOBBIE" type="text">
+    </div>
+    <button class="btn btn-primary" type="submit">Add HOBBIE</button>
+</form>
+<table>
+    <thead>
+        <tr>
+            <th>HOBIES</th>
+        </tr>
+    </thead>
+
+    {% for hobbie in hobbies %}
+    <tr>
+        <td>{{hobbie.hobby}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
