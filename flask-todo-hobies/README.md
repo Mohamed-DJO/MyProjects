@@ -39,9 +39,9 @@ flask-todo-hobies/
 └── .gitignore
 
 🧠 Tech Stack
-Python 3.x
-Flask
-Flask-Session
-SQLAlchemy
-SQLite
-Bootstrap 5
+- Python 3.x
+- Flask
+- Flask-Session
+- SQLAlchemy
+- SQLite
+- Bootstrap 5
