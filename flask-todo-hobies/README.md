@@ -23,3 +23,25 @@ This is a full-stack web app built using **Flask**, **SQLite**, and **Bootstrap*
 
 ## 📂 Folder Structure
 
+flask-todo-hobies/
+│
+├── app.py # Main Flask application
+├── templates/ # HTML templates (Jinja2)
+│ ├── layout.html
+│ ├── login.html
+│ ├── register.html
+│ ├── todo.html
+│ └── hobbie.html
+├── static/ # CSS styling
+│ └── styles.css
+├── instance/ # SQLite DB (info.db)
+├── requirements.txt # Python dependencies
+└── .gitignore
+
+🧠 Tech Stack
+Python 3.x
+Flask
+Flask-Session
+SQLAlchemy
+SQLite
+Bootstrap 5
