@@ -1,9 +1,4 @@
 __pycache__/
-flask_session/
-instance/
 *.pyc
-*.pyo
-*.pyd
-*.db
-*.sqlite3
-
+instance/info.db
+.env
